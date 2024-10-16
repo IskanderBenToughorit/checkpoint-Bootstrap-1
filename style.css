@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    height: 100%; /* Assurez-vous que toutes les cartes ont la même hauteur */
+}
+
+.card-img-top {
+    width: 100%; /* La largeur de l'image remplit la carte */
+    height: 200px; /* Hauteur fixe pour uniformiser l'affichage */
+    object-fit: cover; /* Couvre la zone tout en maintenant le ratio d'aspect */
+}
+
+footer {
+    margin-top: 20px;
+}
+
+/* Requêtes média pour la réactivité */
+@media (max-width: 768px) {
+    /* Ajustement de la taille du texte pour les écrans mobiles */
+    h2 {
+        font-size: 1.5rem; /* Réduire la taille du texte */
+    }
+
+    .card {
+        margin-bottom: 15px; /* Réduire l'espacement entre les cartes */
+    }
+
+    .text-center {
+        font-size: 1.2rem; /* Ajuster la taille du texte pour l'en-tête */
+    }
+}
+.hero {
+    background-image: url('background.jpg'); /* Assurez-vous de remplacer par l'URL de votre image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 2.5em; /* Taille du texte pour le titre */
+    margin-bottom: 10px;
+}
+
+.hero-subtitle {
+    font-size: 1.2em; /* Taille du texte pour le sous-titre */
+    margin-bottom: 20px;
+}
+
+
+
+

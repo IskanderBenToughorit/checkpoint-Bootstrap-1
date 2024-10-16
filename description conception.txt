@@ -1,0 +1,3 @@
+pour s'assurer que la section des produits s'adapte à différentes tailles d'écran j'ai utilisé la grille Bootstrap. Chaque carte produit occupe 4 colonnes sur les écrans de taille moyenne (md) et 6 colonnes sur les petits écrans (sm).
+Esthétiquement L'utilisation de Bootstrap facilite l'ajout de styles par défaut, comme les couleurs et les marges. L'effet d'agrandissement sur les cartes de produits améliore l'interaction utilisateur.
+Un menu de navigation simple dans l'en-tête permet aux utilisateurs d'accéder rapidement à différentes sections de la page.
